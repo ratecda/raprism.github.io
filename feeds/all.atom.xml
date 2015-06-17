@@ -1,77 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>:: RaPrism ::</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-05-31T00:00:00+02:00</updated><entry><title>PyData Berlin 2015</title><link href="/PyDataBerlin2015.html" rel="alternate"></link><updated>2015-05-31T00:00:00+02:00</updated><author><name>prismv</name></author><id>tag:,2015-05-30:PyDataBerlin2015.html</id><summary type="html">&lt;p&gt;&lt;a href="http://pydata.org/berlin2015"&gt;PyData Berlin 2015&lt;/a&gt; meeting took
-place 29.-30. May at location &lt;a href="http://www.betahaus.com"&gt;Betahaus&lt;/a&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>:: prismv - test site ::</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-05-31T00:00:00+02:00</updated><entry><title>PyData Berlin 2015</title><link href="/PyDataBerlin2015.html" rel="alternate"></link><updated>2015-05-31T00:00:00+02:00</updated><author><name>prismv</name></author><id>tag:,2015-05-30:PyDataBerlin2015.html</id><summary type="html">&lt;p&gt;After a visit of &lt;a href="http://pydata.org/berlin2015"&gt;PyData Berlin 2015&lt;/a&gt;
+event, which took place 29.-30. May at location
+&lt;a href="http://www.betahaus.com"&gt;Betahaus&lt;/a&gt;, I wrote down some links as a
+reminder, and decided then to put them here alongside with some
+thoughts on given topics.&lt;/p&gt;
 &lt;p&gt;Actually there were talks as given on meeting site - 'related to the
 use of Python in data management and analysis' - from variety of
 fields, but with emphasis on application of machine learning.&lt;/p&gt;
 &lt;p&gt;In 2014 PyData Berlin event was a &lt;a href="https://www.youtube.com/watch?v=d9Qm3PPoYNQ"&gt;talk of Travis
-Oliphant&lt;/a&gt; ...&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.blue-yonder.com/blog-e/2014/11/12/environment-choose-data-science"&gt;...&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;[PyData event site]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;'official' feed &lt;a href="https://twitter.com/hashtag/PyDataBerlin?src=hash"&gt;Twitter #PyDataBerlin&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;and &lt;a href="https://www.youtube.com/user/PyDataTV"&gt;videos&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="http://matthewrocklin.com"&gt;Matthew Rocklin&lt;/a&gt; from Continuum
-  Analytics talked about &lt;a href="http://dask.pydata.org/"&gt;Dask&lt;/a&gt; and also some
-  information about limitations for multi-threaded data management
-  because of
-  &lt;a href="https://wiki.python.org/moin/GlobalInterpreterLock"&gt;GIL&lt;/a&gt;, and some
-  message to get rid of this in main parts of PyData module ecosystem
-  (&lt;a href="http://docs.cython.org/src/userguide/external_C_code.html#nogil"&gt;with
-  nogil&lt;/a&gt;
-  statement in cython).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="http://haenel.co"&gt;Valentin Haenel&lt;/a&gt; talked about Blosc and higher-level packages (as given on his homepage)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/c-abird"&gt;Claas Abert&lt;/a&gt; talked about numerical treatment of PDE with Numpy&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://fenicsproject.org/"&gt;FEnICS&lt;/a&gt; and &lt;a href="http://micromagnetics.org"&gt;micromagnetic 'childs'&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;mesh generation (?)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;... (to be filled)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;2 talks from &lt;a href="https://pivotal.io"&gt;Pivotal&lt;/a&gt; folks&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://cloudfoundry.org"&gt;Cloud Foundry&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pivotal.io/open-source"&gt;open source used @ Pivotal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;some Flink was mentioned as alternative to Spark &lt;a href="https://github.com/apache/flink/blob/master/docs/apis/python.md"&gt;...?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;(En)lightning talk by Matthew Rocklin hinted to pandas' dtypes categories&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://pandas.pydata.org/pandas-docs/dev/categorical.html#categorical"&gt;pandas docs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;(En)lightning talk 'Automatic machine learning' by &lt;a href="http://tdj.si"&gt;Tadej Štajner&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://tdj.si/automl_pydataberlin.pdf"&gt;presentation&lt;/a&gt; &amp;amp; &lt;a href="https://github.com/tadejs/autokit"&gt;github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://automl.org"&gt;automl&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;... (to be filled)&lt;/p&gt;
-&lt;p&gt;which talk? new JIT compiler &lt;a href="https://github.com/cosmo-ethz/hope"&gt;HOPE&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/CamDavidsonPilon/tdigest"&gt;t-digest&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://amplab.cs.berkeley.edu/projects/velox"&gt;velox&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/ascribe/transactions"&gt;transactions&lt;/a&gt; 'Bitcoin for Humans'&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://docs.docker.com"&gt;Docker&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.gartner.com/it-glossary/predictive-analytics"&gt;Predictive analytics&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.blue-yonder.com"&gt;Blue Yonder&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm"&gt;Random Forests&lt;/a&gt;&lt;/p&gt;
+Oliphant&lt;/a&gt; , during which
+also 'PyData: the First 20 Years' were summarized on a slide. Actually
+this story began with basic matrix calculation packages that were
+precursor of current standard &lt;a href="http://www.numpy.org"&gt;NumPy&lt;/a&gt; and
+extensions like &lt;a href="https://www.scipy.org"&gt;SciPy&lt;/a&gt; and
+&lt;a href="http://matplotlib.org"&gt;matplotlib&lt;/a&gt;. With
+&lt;a href="http://pandas.pydata.org"&gt;pandas&lt;/a&gt; and several machine learning
+packages, e.g. &lt;a href="http://scikit-learn.org"&gt;scikit-learn&lt;/a&gt;, the PyData
+ecosystem rivals &lt;a href="http://www.r-project.org"&gt;R&lt;/a&gt; and interacts with
+'big' Java-driven 'big data' solutions centered on
+&lt;a href="https://projects.apache.org/indexes/category.html#big-data"&gt;apache.org&lt;/a&gt; -
+as described
+e.g. &lt;a href="http://www.blue-yonder.com/blog-e/2014/11/12/environment-choose-data-science"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Topics presented and discussed in Berlin this year were commented in
+'official'
+&lt;a href="https://twitter.com/hashtag/PyDataBerlin?src=hash"&gt;#PyDataBerlin&lt;/a&gt;
+twitter feeds, and &lt;a href="https://www.youtube.com/user/PyDataTV"&gt;videos&lt;/a&gt; are
+on-line.&lt;/p&gt;
+&lt;p&gt;The keynote from &lt;a href="http://matthewrocklin.com"&gt;Matthew
+Rocklin&lt;/a&gt; from &lt;a href="https://coninuum.io"&gt;Continuum
+Analytics&lt;/a&gt; was about
+&lt;a href="http://dask.pydata.org/"&gt;Dask&lt;/a&gt;, which seems to be a quite elegant
+approach to get 'instantly' multi-core performance for a large subset
+of NumPy functionality by parallel processing. This topic leads
+usually to hints about limitations for multi-threaded data management
+because of &lt;a href="https://wiki.python.org/moin/GlobalInterpreterLock"&gt;GIL&lt;/a&gt;,
+and consequently one of Matthew's message was to get rid of this in
+main parts of PyData module ecosystem (&lt;a href="http://docs.cython.org/src/userguide/external_C_code.html#nogil"&gt;with
+nogil&lt;/a&gt;
+statement in cython).&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://haenel.co"&gt;Valentin Haenel&lt;/a&gt; talked about Blosc and related
+higher-level packages (see links on his homepage). Especially the
+'columnar data container' &lt;a href="https://github.com/Blosc/bcolz"&gt;bcolz&lt;/a&gt; could
+be considered as an light-weight alternative for HDF5 file format (actually
+&lt;a href="http://www.pytables.org"&gt;PyTables&lt;/a&gt; offers also Blosc-based
+compression filter).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/c-abird"&gt;Claas Abert&lt;/a&gt;'s talk about numerical
+treatment of PDE with Numpy gave impresison about one 'classic' use
+case for PyData packages, i.e. physical simulations by
+finite-difference and finite-elements methods of &lt;a href="http://micromagnetics.org"&gt;micromagnetic
+problems&lt;/a&gt;. The finite-elements package is
+based on &lt;a href="http://fenicsproject.org/"&gt;FEnICS&lt;/a&gt;. Number crunching
+involves also optimization of Python code, and an overview on
+possibilities was given. Thanks for getting a hint about new JIT
+compiler: &lt;a href="https://github.com/cosmo-ethz/hope"&gt;HOPE&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Mobile app marketing was one example of 'new' 'Big Data' and their
+challenges. Nakul Selvaraj from &lt;a href="https://www.trademob.com"&gt;Trademob&lt;/a&gt;
+explained demands for real-time monitoring, and his colleague Tobias
+Kuhn gave some insights about statistical methods with specific
+algorithms like &lt;a href="https://github.com/trademob/t-digest"&gt;t-digest&lt;/a&gt; used
+e.g.  for tracking of anomalies, or how to decompose trends on top of
+seasonal variations.&lt;/p&gt;
+&lt;p&gt;There were 2 talks from &lt;a href="https://pivotal.io"&gt;Pivotal&lt;/a&gt; folks. &lt;a href="http://cloudfoundry.org"&gt;Cloud
+Foundry&lt;/a&gt; was mentioned as their PaaS, and
+it's interesting to see what open source is &lt;a href="https://pivotal.io/open-source"&gt;used
+@Pivotal&lt;/a&gt;. Here smart GPS tracking of
+cars was given as one example of
+&lt;a href="https://en.wikipedia.org/wiki/Internet_of_Things"&gt;IoT&lt;/a&gt;. In this study
+presented by Ronert Obst &lt;a href="http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm"&gt;Random
+Forests&lt;/a&gt;
+were used to learn and classify possible driven routes. Although
+&lt;a href="https://github.com/apache/spark"&gt;Spark&lt;/a&gt; usage was mentioned here and
+in other talks, it was also hinted to
+&lt;a href="https://github.com/apache/flink"&gt;Flink&lt;/a&gt; as alternative with different
+memory model and ability to process data &lt;a href="http://ci.apache.org/projects/flink/flink-docs-master/api/java/org/apache/flink/languagebinding/api/java/python/streaming/PythonStreamer.html"&gt;streams&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On Friday the presentation session ended with 'Get Together', but one
+should not forget to mention the (en)lightning talks just before. I
+pick two: Matthew Rocklin gave short example to show what the benefit
+of &lt;a href="http://pandas.pydata.org/pandas-docs/dev/categorical.html#categorical"&gt;pandas' dtype
+category&lt;/a&gt;
+is. And the presentation from &lt;a href="http://tdj.si"&gt;Tadej Štajner&lt;/a&gt; about
+&lt;a href="http://tdj.si/automl_pydataberlin.pdf"&gt;Automatic machine learning&lt;/a&gt;
+with some &lt;a href="https://github.com/tadejs/autokit"&gt;code&lt;/a&gt;.  So how different
+will be future PyData events, if one takes one statement on
+&lt;a href="http://automl.org"&gt;AutoML&lt;/a&gt; site too serious: 'taking the human expert
+out of the loop'?&lt;/p&gt;
+&lt;p&gt;It was not only a talk about how &lt;a href="https://ascribe.io"&gt;ascribe&lt;/a&gt; uses
+Python modules, like
+&lt;a href="https://github.com/ascribe/transactions"&gt;transactions&lt;/a&gt; as 'Bitcoin
+for Humans', but in his keynote Trent McConaghy also gave an
+interesting view on how blockchains and a suitable protocol
+(&lt;a href="https://github.com/ascribe/spool"&gt;Spool&lt;/a&gt;) under the hood can help
+e.g. artists to keep in control of intellectual property of digital
+objects..&lt;/p&gt;
+&lt;p&gt;The keynote of Felix Wick from &lt;a href="http://www.blue-yonder.com"&gt;Blue
+Yonder&lt;/a&gt; contained really lots of
+information not only about technical stuff a data scientist might or
+should know, when doing e.g &lt;a href="http://www.gartner.com/it-glossary/predictive-analytics"&gt;Predictive
+analytics&lt;/a&gt;. So
+in his/her life it's not bad to know a bit about hype cycles ... But
+do not care too much. And you should really have a look to the
+&lt;a href="https://www.youtube.com/watch?v=Fo0Ne2pYWW4"&gt;video&lt;/a&gt;, because for me
+it appears to be almost as lecture that gives a nice introduction on 'data
+science' in our Big Data (peak) world.&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/pymc-devs/pymc3"&gt;PyMC 3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://spark.apache.org/docs/latest/api/python/index.html"&gt;PySpark&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://parquet.apache.org"&gt;Parquet&lt;/a&gt;&lt;/p&gt;
@@ -79,6 +110,20 @@ Oliphant&lt;/a&gt; ...&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.nltk.org"&gt;NLTK&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/spotify/luigi"&gt;Luigi&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/danielfrg/word2vec"&gt;word2vec&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I didn't attend the tutorial sessions, so it will help to have a look
+at respective videos, if one wants to learn and understand better
+e.g. how interactive graphics e.g. within &lt;a href="http://ipython.org/notebook.html"&gt;IPython
+notebooks&lt;/a&gt; can be created with
+&lt;a href="http://bokeh.pydata.org"&gt;Bokeh&lt;/a&gt;, how
+&lt;a href="https://docs.docker.com"&gt;Docker&lt;/a&gt; could be seen in between tools like
+virtualenv and 'normal' virtual machines, and what one could use
+instead of
+&lt;a href="https://ipython.org/ipython-doc/dev/interactive/magics.html?highlight=timeit#magic-timeit"&gt;%timeit&lt;/a&gt;
+for code profiling.&lt;/p&gt;
+&lt;p&gt;Someone referred to the
+&lt;a href="https://amplab.cs.berkeley.edu/projects/velox"&gt;velox&lt;/a&gt; model server -
+if you remember who, then feel free to message me
+&lt;a href="https://twitter.com/RaPrism"&gt;@RaPrism&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- Local Variables: --&gt;
 
 &lt;!-- mode: rst --&gt;
