@@ -27,7 +27,7 @@ e.g. &lt;a href="http://www.blue-yonder.com/blog-e/2014/11/12/environment-choose
 twitter feeds, and &lt;a href="https://www.youtube.com/user/PyDataTV"&gt;videos&lt;/a&gt; are
 on-line.&lt;/p&gt;
 &lt;p&gt;The keynote from &lt;a href="http://matthewrocklin.com"&gt;Matthew
-Rocklin&lt;/a&gt; from &lt;a href="https://coninuum.io"&gt;Continuum
+Rocklin&lt;/a&gt; from &lt;a href="http://continuum.io"&gt;Continuum
 Analytics&lt;/a&gt; was about
 &lt;a href="http://dask.pydata.org/"&gt;Dask&lt;/a&gt;, which seems to be a quite elegant
 approach to get 'instantly' multi-core performance for a large subset
@@ -54,15 +54,16 @@ involves also optimization of Python code, and an overview on
 possibilities was given. Thanks for getting a hint about new JIT
 compiler: &lt;a href="https://github.com/cosmo-ethz/hope"&gt;HOPE&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Mobile app marketing was one example of 'new' 'Big Data' and their
-challenges. Nakul Selvaraj from &lt;a href="https://www.trademob.com"&gt;Trademob&lt;/a&gt;
+challenges. Nakul Selvaraj from &lt;a href="http://www.trademob.com"&gt;Trademob&lt;/a&gt;
 explained demands for real-time monitoring, and his colleague Tobias
 Kuhn gave some insights about statistical methods with specific
 algorithms like &lt;a href="https://github.com/trademob/t-digest"&gt;t-digest&lt;/a&gt; used
 e.g.  for tracking of anomalies, or how to decompose trends on top of
 seasonal variations.&lt;/p&gt;
 &lt;p&gt;There were 2 talks from &lt;a href="https://pivotal.io"&gt;Pivotal&lt;/a&gt; folks. &lt;a href="http://cloudfoundry.org"&gt;Cloud
-Foundry&lt;/a&gt; was mentioned as their PaaS, and
-it's interesting to see what open source is &lt;a href="https://pivotal.io/open-source"&gt;used
+Foundry&lt;/a&gt; was mentioned as their
+&lt;a href="https://en.wikipedia.org/wiki/Platform_as_a_service"&gt;PaaS&lt;/a&gt; product,
+and it's interesting to see what open source is &lt;a href="https://pivotal.io/open-source"&gt;used
 @Pivotal&lt;/a&gt;. Here smart GPS tracking of
 cars was given as one example of
 &lt;a href="https://en.wikipedia.org/wiki/Internet_of_Things"&gt;IoT&lt;/a&gt;. In this study
@@ -72,44 +73,66 @@ were used to learn and classify possible driven routes. Although
 &lt;a href="https://github.com/apache/spark"&gt;Spark&lt;/a&gt; usage was mentioned here and
 in other talks, it was also hinted to
 &lt;a href="https://github.com/apache/flink"&gt;Flink&lt;/a&gt; as alternative with different
-memory model and ability to process data &lt;a href="http://ci.apache.org/projects/flink/flink-docs-master/api/java/org/apache/flink/languagebinding/api/java/python/streaming/PythonStreamer.html"&gt;streams&lt;/a&gt;.&lt;/p&gt;
+memory model and ability to process data
+&lt;a href="http://ci.apache.org/projects/flink/flink-docs-master/api/java/org/apache/flink/languagebinding/api/java/python/streaming/PythonStreamer.html"&gt;streams&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;On Friday the presentation session ended with 'Get Together', but one
 should not forget to mention the (en)lightning talks just before. I
 pick two: Matthew Rocklin gave short example to show what the benefit
 of &lt;a href="http://pandas.pydata.org/pandas-docs/dev/categorical.html#categorical"&gt;pandas' dtype
 category&lt;/a&gt;
 is. And the presentation from &lt;a href="http://tdj.si"&gt;Tadej Štajner&lt;/a&gt; about
-&lt;a href="http://tdj.si/automl_pydataberlin.pdf"&gt;Automatic machine learning&lt;/a&gt;
+&lt;a href="http://tdj.si/automl_pydataberlin.pdf"&gt;automatic machine learning&lt;/a&gt;
 with some &lt;a href="https://github.com/tadejs/autokit"&gt;code&lt;/a&gt;.  So how different
 will be future PyData events, if one takes one statement on
 &lt;a href="http://automl.org"&gt;AutoML&lt;/a&gt; site too serious: 'taking the human expert
 out of the loop'?&lt;/p&gt;
-&lt;p&gt;It was not only a talk about how &lt;a href="https://ascribe.io"&gt;ascribe&lt;/a&gt; uses
-Python modules, like
+&lt;p&gt;It was not only a presentation about how &lt;a href="https://www.ascribe.io"&gt;ascribe&lt;/a&gt;
+uses Python modules, like
 &lt;a href="https://github.com/ascribe/transactions"&gt;transactions&lt;/a&gt; as 'Bitcoin
 for Humans', but in his keynote Trent McConaghy also gave an
 interesting view on how blockchains and a suitable protocol
 (&lt;a href="https://github.com/ascribe/spool"&gt;Spool&lt;/a&gt;) under the hood can help
 e.g. artists to keep in control of intellectual property of digital
-objects..&lt;/p&gt;
+objects.&lt;/p&gt;
 &lt;p&gt;The keynote of Felix Wick from &lt;a href="http://www.blue-yonder.com"&gt;Blue
 Yonder&lt;/a&gt; contained really lots of
 information not only about technical stuff a data scientist might or
-should know, when doing e.g &lt;a href="http://www.gartner.com/it-glossary/predictive-analytics"&gt;Predictive
+should know, when doing e.g &lt;a href="http://www.gartner.com/it-glossary/predictive-analytics"&gt;predictive
 analytics&lt;/a&gt;. So
-in his/her life it's not bad to know a bit about hype cycles ... But
-do not care too much. And you should really have a look to the
-&lt;a href="https://www.youtube.com/watch?v=Fo0Ne2pYWW4"&gt;video&lt;/a&gt;, because for me
-it appears to be almost as lecture that gives a nice introduction on 'data
-science' in our Big Data (peak) world.&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/pymc-devs/pymc3"&gt;PyMC 3&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://spark.apache.org/docs/latest/api/python/index.html"&gt;PySpark&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://parquet.apache.org"&gt;Parquet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Alejandro C. Bahnsen &lt;a href="https://github.com/albahnsen/CostSensitiveClassification"&gt;costcla&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.nltk.org"&gt;NLTK&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spotify/luigi"&gt;Luigi&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/danielfrg/word2vec"&gt;word2vec&lt;/a&gt;&lt;/p&gt;
+in his/her life it might be not bad to know a bit about hype cycles -
+but do not care too much. And you should really have a look to the
+&lt;a href="https://www.youtube.com/watch?v=Fo0Ne2pYWW4"&gt;video&lt;/a&gt;, because it
+appears to be almost a lecture, which gives a nice introduction on
+'data science' in our Big Data world (be it a peak or not ...).&lt;/p&gt;
+&lt;p&gt;Peadar Coyle very nicely presented an interesting example how &lt;a href="http://nbviewer.ipython.org/format/slides/github/springcoil/Probabilistic_Programming_and_Rugby/blob/master/Bayesian_Rugby.ipynb#/"&gt;sports
+analytics&lt;/a&gt; -
+in this case &lt;a href="http://www.rbs6nations.com"&gt;6 Nations&lt;/a&gt; playing Rugby -
+can be done by applying bayesian statistical models with
+&lt;a href="https://github.com/pymc-devs/pymc"&gt;PyMC&lt;/a&gt;. Someone in the audience
+mentioned that it could be already worth switching to the successor
+&lt;a href="https://github.com/pymc-devs/pymc3"&gt;PyMC 3&lt;/a&gt; to perform Markow chain
+Monte Carlo fitting. Actually
+&lt;a href="http://nbviewer.ipython.org/github/aloctavodia/Doing_bayesian_data_analysis/blob/master/IPython/Kruschkes_Doing_Bayesian_Data_Analysis_in_PyMC3.ipynb"&gt;this&lt;/a&gt;
+notebook seems to be a good tutorial for learning or migration
+purposes.&lt;/p&gt;
+&lt;p&gt;The second presentation of Blue Yonder folks was an
+introduction to
+&lt;a href="https://spark.apache.org/docs/latest/api/python/index.html"&gt;PySpark&lt;/a&gt;
+DataFrame objects, which are created to make use of - for instance -
+columnar data stored on &lt;a href="http://hadoop.apache.org/"&gt;Hadoop&lt;/a&gt; HDFS
+clusters in &lt;a href="http://parquet.apache.org"&gt;Parquet&lt;/a&gt; format. It was
+concluded that such an API for distributed file access is too costly
+in terms of efficiency compared to NumPy arrays or Pandas dataframes,
+when data fits on one machine.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://albahnsen.com"&gt;Alejandro C. Bahnsen&lt;/a&gt; presented his work
+&lt;a href="https://github.com/albahnsen/CostSensitiveClassification"&gt;CostCla&lt;/a&gt;,
+which examplifies usage of scikit-learn classifications on financial
+topics like &lt;a href="http://nbviewer.ipython.org/github/albahnsen/CostSensitiveClassification/blob/master/doc/tutorials/tutorial_edcs_credit_scoring.ipynb"&gt;credit
+scoring&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Brian Carter (IBM Software Group) gave an overview on web text mining
+processes. In this field the &lt;a href="http://www.nltk.org"&gt;NLTK&lt;/a&gt; module seems
+to be the standard for language processing with Python.&lt;/p&gt;
+&lt;p&gt;When dealing with similarity of words like Miguel Fernando Cabrera (TrustYou) did with hotel reviews, &lt;a href="https://github.com/danielfrg/word2vec"&gt;word2vec&lt;/a&gt; has the metrices needed.&lt;/p&gt;
 &lt;p&gt;I didn't attend the tutorial sessions, so it will help to have a look
 at respective videos, if one wants to learn and understand better
 e.g. how interactive graphics e.g. within &lt;a href="http://ipython.org/notebook.html"&gt;IPython
@@ -121,8 +144,10 @@ instead of
 &lt;a href="https://ipython.org/ipython-doc/dev/interactive/magics.html?highlight=timeit#magic-timeit"&gt;%timeit&lt;/a&gt;
 for code profiling.&lt;/p&gt;
 &lt;p&gt;Someone referred to the
-&lt;a href="https://amplab.cs.berkeley.edu/projects/velox"&gt;velox&lt;/a&gt; model server -
-if you remember who, then feel free to message me
+&lt;a href="https://amplab.cs.berkeley.edu/projects/velox"&gt;velox&lt;/a&gt; model server,
+and I noted also &lt;a href="https://github.com/spotify/luigi"&gt;Luigi&lt;/a&gt; for
+pipeline creation of batch jobs - if you remember the right context,
+talk or discussion, those were given then feel free to message me
 &lt;a href="https://twitter.com/RaPrism"&gt;@RaPrism&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- Local Variables: --&gt;
 

@@ -60,7 +60,7 @@ e.g. <a href="http://www.blue-yonder.com/blog-e/2014/11/12/environment-choose-da
 twitter feeds, and <a href="https://www.youtube.com/user/PyDataTV">videos</a> are
 on-line.</p>
 <p>The keynote from <a href="http://matthewrocklin.com">Matthew
-Rocklin</a> from <a href="https://coninuum.io">Continuum
+Rocklin</a> from <a href="http://continuum.io">Continuum
 Analytics</a> was about
 <a href="http://dask.pydata.org/">Dask</a>, which seems to be a quite elegant
 approach to get 'instantly' multi-core performance for a large subset
@@ -87,15 +87,16 @@ involves also optimization of Python code, and an overview on
 possibilities was given. Thanks for getting a hint about new JIT
 compiler: <a href="https://github.com/cosmo-ethz/hope">HOPE</a>!</p>
 <p>Mobile app marketing was one example of 'new' 'Big Data' and their
-challenges. Nakul Selvaraj from <a href="https://www.trademob.com">Trademob</a>
+challenges. Nakul Selvaraj from <a href="http://www.trademob.com">Trademob</a>
 explained demands for real-time monitoring, and his colleague Tobias
 Kuhn gave some insights about statistical methods with specific
 algorithms like <a href="https://github.com/trademob/t-digest">t-digest</a> used
 e.g.  for tracking of anomalies, or how to decompose trends on top of
 seasonal variations.</p>
 <p>There were 2 talks from <a href="https://pivotal.io">Pivotal</a> folks. <a href="http://cloudfoundry.org">Cloud
-Foundry</a> was mentioned as their PaaS, and
-it's interesting to see what open source is <a href="https://pivotal.io/open-source">used
+Foundry</a> was mentioned as their
+<a href="https://en.wikipedia.org/wiki/Platform_as_a_service">PaaS</a> product,
+and it's interesting to see what open source is <a href="https://pivotal.io/open-source">used
 @Pivotal</a>. Here smart GPS tracking of
 cars was given as one example of
 <a href="https://en.wikipedia.org/wiki/Internet_of_Things">IoT</a>. In this study
@@ -105,44 +106,66 @@ were used to learn and classify possible driven routes. Although
 <a href="https://github.com/apache/spark">Spark</a> usage was mentioned here and
 in other talks, it was also hinted to
 <a href="https://github.com/apache/flink">Flink</a> as alternative with different
-memory model and ability to process data <a href="http://ci.apache.org/projects/flink/flink-docs-master/api/java/org/apache/flink/languagebinding/api/java/python/streaming/PythonStreamer.html">streams</a>.</p>
+memory model and ability to process data
+<a href="http://ci.apache.org/projects/flink/flink-docs-master/api/java/org/apache/flink/languagebinding/api/java/python/streaming/PythonStreamer.html">streams</a>.</p>
 <p>On Friday the presentation session ended with 'Get Together', but one
 should not forget to mention the (en)lightning talks just before. I
 pick two: Matthew Rocklin gave short example to show what the benefit
 of <a href="http://pandas.pydata.org/pandas-docs/dev/categorical.html#categorical">pandas' dtype
 category</a>
 is. And the presentation from <a href="http://tdj.si">Tadej Štajner</a> about
-<a href="http://tdj.si/automl_pydataberlin.pdf">Automatic machine learning</a>
+<a href="http://tdj.si/automl_pydataberlin.pdf">automatic machine learning</a>
 with some <a href="https://github.com/tadejs/autokit">code</a>.  So how different
 will be future PyData events, if one takes one statement on
 <a href="http://automl.org">AutoML</a> site too serious: 'taking the human expert
 out of the loop'?</p>
-<p>It was not only a talk about how <a href="https://ascribe.io">ascribe</a> uses
-Python modules, like
+<p>It was not only a presentation about how <a href="https://www.ascribe.io">ascribe</a>
+uses Python modules, like
 <a href="https://github.com/ascribe/transactions">transactions</a> as 'Bitcoin
 for Humans', but in his keynote Trent McConaghy also gave an
 interesting view on how blockchains and a suitable protocol
 (<a href="https://github.com/ascribe/spool">Spool</a>) under the hood can help
 e.g. artists to keep in control of intellectual property of digital
-objects..</p>
+objects.</p>
 <p>The keynote of Felix Wick from <a href="http://www.blue-yonder.com">Blue
 Yonder</a> contained really lots of
 information not only about technical stuff a data scientist might or
-should know, when doing e.g <a href="http://www.gartner.com/it-glossary/predictive-analytics">Predictive
+should know, when doing e.g <a href="http://www.gartner.com/it-glossary/predictive-analytics">predictive
 analytics</a>. So
-in his/her life it's not bad to know a bit about hype cycles ... But
-do not care too much. And you should really have a look to the
-<a href="https://www.youtube.com/watch?v=Fo0Ne2pYWW4">video</a>, because for me
-it appears to be almost as lecture that gives a nice introduction on 'data
-science' in our Big Data (peak) world.</p>
-<p>...</p>
-<p><a href="https://github.com/pymc-devs/pymc3">PyMC 3</a></p>
-<p><a href="https://spark.apache.org/docs/latest/api/python/index.html">PySpark</a></p>
-<p><a href="http://parquet.apache.org">Parquet</a></p>
-<p>Alejandro C. Bahnsen <a href="https://github.com/albahnsen/CostSensitiveClassification">costcla</a></p>
-<p><a href="http://www.nltk.org">NLTK</a></p>
-<p><a href="https://github.com/spotify/luigi">Luigi</a></p>
-<p><a href="https://github.com/danielfrg/word2vec">word2vec</a></p>
+in his/her life it might be not bad to know a bit about hype cycles -
+but do not care too much. And you should really have a look to the
+<a href="https://www.youtube.com/watch?v=Fo0Ne2pYWW4">video</a>, because it
+appears to be almost a lecture, which gives a nice introduction on
+'data science' in our Big Data world (be it a peak or not ...).</p>
+<p>Peadar Coyle very nicely presented an interesting example how <a href="http://nbviewer.ipython.org/format/slides/github/springcoil/Probabilistic_Programming_and_Rugby/blob/master/Bayesian_Rugby.ipynb#/">sports
+analytics</a> -
+in this case <a href="http://www.rbs6nations.com">6 Nations</a> playing Rugby -
+can be done by applying bayesian statistical models with
+<a href="https://github.com/pymc-devs/pymc">PyMC</a>. Someone in the audience
+mentioned that it could be already worth switching to the successor
+<a href="https://github.com/pymc-devs/pymc3">PyMC 3</a> to perform Markow chain
+Monte Carlo fitting. Actually
+<a href="http://nbviewer.ipython.org/github/aloctavodia/Doing_bayesian_data_analysis/blob/master/IPython/Kruschkes_Doing_Bayesian_Data_Analysis_in_PyMC3.ipynb">this</a>
+notebook seems to be a good tutorial for learning or migration
+purposes.</p>
+<p>The second presentation of Blue Yonder folks was an
+introduction to
+<a href="https://spark.apache.org/docs/latest/api/python/index.html">PySpark</a>
+DataFrame objects, which are created to make use of - for instance -
+columnar data stored on <a href="http://hadoop.apache.org/">Hadoop</a> HDFS
+clusters in <a href="http://parquet.apache.org">Parquet</a> format. It was
+concluded that such an API for distributed file access is too costly
+in terms of efficiency compared to NumPy arrays or Pandas dataframes,
+when data fits on one machine.</p>
+<p><a href="http://albahnsen.com">Alejandro C. Bahnsen</a> presented his work
+<a href="https://github.com/albahnsen/CostSensitiveClassification">CostCla</a>,
+which examplifies usage of scikit-learn classifications on financial
+topics like <a href="http://nbviewer.ipython.org/github/albahnsen/CostSensitiveClassification/blob/master/doc/tutorials/tutorial_edcs_credit_scoring.ipynb">credit
+scoring</a>.</p>
+<p>Brian Carter (IBM Software Group) gave an overview on web text mining
+processes. In this field the <a href="http://www.nltk.org">NLTK</a> module seems
+to be the standard for language processing with Python.</p>
+<p>When dealing with similarity of words like Miguel Fernando Cabrera (TrustYou) did with hotel reviews, <a href="https://github.com/danielfrg/word2vec">word2vec</a> has the metrices needed.</p>
 <p>I didn't attend the tutorial sessions, so it will help to have a look
 at respective videos, if one wants to learn and understand better
 e.g. how interactive graphics e.g. within <a href="http://ipython.org/notebook.html">IPython
@@ -154,8 +177,10 @@ instead of
 <a href="https://ipython.org/ipython-doc/dev/interactive/magics.html?highlight=timeit#magic-timeit">%timeit</a>
 for code profiling.</p>
 <p>Someone referred to the
-<a href="https://amplab.cs.berkeley.edu/projects/velox">velox</a> model server -
-if you remember who, then feel free to message me
+<a href="https://amplab.cs.berkeley.edu/projects/velox">velox</a> model server,
+and I noted also <a href="https://github.com/spotify/luigi">Luigi</a> for
+pipeline creation of batch jobs - if you remember the right context,
+talk or discussion, those were given then feel free to message me
 <a href="https://twitter.com/RaPrism">@RaPrism</a>.</p>
 <!-- Local Variables: -->
 
